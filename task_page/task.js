@@ -409,19 +409,6 @@ for (let box of boxs) {
             data[index].splice(indexchild,1)
             render()
         }
-        else {
-            console.log('12345')
-            let k = e.target.parentNode
-            console.log(k)
-             while (true) {
-                if (k.parentNode.classList.contains('task_card')) {
-                    console.log('QUang Nguyễn')
-                    break
-                }
-                k = k.parentNode
-            }
-            console.log(k)
-        }
     } 
 }
 
